@@ -3288,6 +3288,7 @@ const std::vector<const char*>& RAWParams::BayerSensor::getMethodStrings()
         "fast",
         "mono",
         "pixelshift",
+        "rgbe",
         "none"
     };
     return method_strings;

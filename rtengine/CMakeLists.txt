@@ -102,6 +102,7 @@ set(RTENGINESOURCEFILES
     rawimage.cc
     rawimagesource.cc
     rcd_demosaic.cc
+    rgbe_demosaic.cc
     refreshmap.cc
     rt_algo.cc
     rtapp.cc

@@ -4279,6 +4279,7 @@ TP_RAW_PIXELSHIFTSIGMA;Blur radius
 TP_RAW_PIXELSHIFTSIGMA_TOOLTIP;The default radius of 1.0 usually fits well for base ISO.\nIncrease the value for high ISO shots, 5.0 is a good starting point.\nWatch the motion mask while changing the value.
 TP_RAW_PIXELSHIFTSMOOTH;Smooth transitions
 TP_RAW_PIXELSHIFTSMOOTH_TOOLTIP;Smooth transitions between areas with motion and areas without.\nSet to 0 to disable transition smoothing.\nSet to 1 to either get the AMaZE/LMMSE result of the selected frame (depending on whether 'Use LMMSE' is selected), or the median of all four frames if 'Use median' is selected.
+TP_RAW_RGBE;RGBE (4-color)
 TP_RAW_RCD;RCD
 TP_RAW_RCDBILINEAR;RCD+Bilinear
 TP_RAW_RCDVNG4;RCD+VNG4

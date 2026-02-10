@@ -284,6 +284,7 @@ protected:
     void dcb_demosaic(int iterations, bool dcb_enhance);
     void ahd_demosaic();
     void rcd_demosaic(size_t chunkSize = 1, bool measure = false);
+    void rgbe_demosaic();
     void border_interpolate(int winw, int winh, int lborders, const array2D<float> &rawData, array2D<float> &red, array2D<float> &green, array2D<float> &blue);
     void dcb_initTileLimits(int &colMin, int &rowMin, int &colMax, int &rowMax, int x0, int y0, int border);
     void fill_raw(float (*cache)[3], int x0, int y0, float** rawData);

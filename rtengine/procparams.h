@@ -1656,6 +1656,7 @@ struct RAWParams {
             FAST,
             MONO,
             PIXELSHIFT,
+            RGBE,
             NONE
         };
 
